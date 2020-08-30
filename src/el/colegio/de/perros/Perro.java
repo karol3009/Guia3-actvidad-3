@@ -26,11 +26,10 @@ public class Perro {
         this.nombre_del_dueño = nombre_del_dueño;
     }
 
-    Perro(String nombre, int codigo_del_perro, String raza, String localidad, String nombre_del_dueño, int cedula_del_dueño) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    Perro(String nombre, int codigo_del_perro, String raza, String localidad, String nombre_del_dueño, int cedula_del_dueño) {        
     }
-    
-        /**
+
+    /**
      * @return the codigo_del_Perro
      */
     public int getCodigo_del_Perro() {
@@ -114,13 +113,14 @@ public class Perro {
         this.nombre_del_dueño = nombre_del_dueño;
     }
 
-    String getraza() {
+    Object getCodigo_del_perro() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+               
+    
+    }
+    
+ 
+    
 
-    String getlocalidad() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
-    
-}
